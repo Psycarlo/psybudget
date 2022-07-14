@@ -16,6 +16,8 @@ dist-ssr
 .env.staging
 .env.production
 
+pocketbase
+
 yarn-error.log
 
 coverage

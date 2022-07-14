@@ -16,6 +16,7 @@
 
 - Node.js: [Current](https://nodejs.org/en/)
 - Yarn: [Current](https://classic.yarnpkg.com/lang/en/docs/install)
+- PocketBase: [Current](https://pocketbase.io/docs/)
 - (Optional) [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Recommended VSC Setup
@@ -52,13 +53,13 @@ Default Formatter: Prettier
 
 2. Navigate to the folder using the terminal
 
-```
+```shell
 cd psybudget
 ```
 
 3. Install dependencies
 
-```
+```shell
 yarn
 ```
 
@@ -68,29 +69,51 @@ yarn
 .env.*
 ```
 
+5. Create pocketbase folder in the root of the directory
+
+```
+pocketbase
+```
+
+6. Extract pocketbase [zip](https://pocketbase.io/docs/) into that folder
+
+## Run
+
+Open two terminals. In the first run pocketbase
+
+```shell
+yarn db
+```
+
+On the second terminal, run the app in development mode
+
+```shell
+yarn dev
+```
+
 ### Lint & Format
 
 Print ESLint errors and warnings
 
-```
+```shell
 yarn lint
 ```
 
 Fix ESLint errors and warnings
 
-```
+```shell
 yarn lint:fix
 ```
 
 Print Prettier errors and warnings
 
-```
+```shell
 yarn format
 ```
 
 Fix Prettier errors and warnings
 
-```
+```shell
 yarn format:fix
 ```
 

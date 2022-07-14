@@ -6,6 +6,7 @@
   "author": "Psycarlo <psycarlo1@gmail.com>",
   "scripts": {
     "dev": "vite",
+    "db": "./pocketbase/pocketbase serve",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "prepare": "husky install",
