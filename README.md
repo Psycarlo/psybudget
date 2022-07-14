@@ -1,16 +1,76 @@
-# Vue 3 + TypeScript + Vite
+<h1 align="center">
+  <br>
+  Add logo here
+  <br>
+  <br>
+  Open Source Budget and Expense App made with Vue, Tailwind and PocketBase
+  <br>
+  <br>
+</h1>
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<p align="center">
+  Made with :heart: by Psycarlo
+</p>
 
-## Recommended IDE Setup
+## Development Requirements
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- Node.js: [Current](https://nodejs.org/en/)
+- Yarn: [Current](https://classic.yarnpkg.com/lang/en/docs/install)
+- (Optional) [Visual Studio Code](https://code.visualstudio.com/)
 
-## Type Support For `.vue` Imports in TS
+## Recommended VSC Setup
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+### Extensions
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+- [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
+- [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+- [Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+- [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
+- [Jest Snippets](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets)
+- [VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+### Config
+
+- Set Format on Save
+
+Go to Settings and set:
+
+```
+Format On Save: On
+Default Formatter: Prettier
+```
+
+## Getting Started
+
+### Setup
+
+1. Clone this repository
+
+2. Navigate to the folder using the terminal
+
+```
+cd psybudget
+```
+
+3. Install dependencies
+
+```
+yarn
+```
+
+4. Add .env files - Check .env.example
+
+```
+.env.*
+```
+
+## Tech Stack
+
+- [Vite](https://vitejs.dev/)
+- [Vue](https://vuejs.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [PocketBase](https://pocketbase.io/)
