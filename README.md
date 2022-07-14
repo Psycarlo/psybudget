@@ -68,6 +68,34 @@ yarn
 .env.*
 ```
 
+### Lint & Format
+
+Print ESLint errors and warnings
+
+```
+yarn lint
+```
+
+Fix ESLint errors and warnings
+
+```
+yarn lint:fix
+```
+
+Print Prettier errors and warnings
+
+```
+yarn format
+```
+
+Fix Prettier errors and warnings
+
+```
+yarn format:fix
+```
+
+Note: You may need to fix some by hand
+
 ## Tech Stack
 
 - [Vite](https://vitejs.dev/)

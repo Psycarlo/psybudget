@@ -12,6 +12,14 @@ dist
 dist-ssr
 *.local
 
+.env.development
+.env.staging
+.env.production
+
+yarn-error.log
+
+coverage
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
